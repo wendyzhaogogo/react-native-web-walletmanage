@@ -19,8 +19,8 @@ This project is a demo application built with React Native Web, allowing you to 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/react-native-web-demo.git
-   cd react-native-web-demo
+   git clone https://github.com/yourusername/react-native-web-walletmanage.git
+   cd react-native-web-walletmanage
    ```
 
 2. Install dependencies:

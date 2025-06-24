@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-native-web-demo",
-    "slug": "react-native-web-demo",
+    "name": "react-native-web-walletmanage",
+    "slug": "react-native-web-walletmanage",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,21 +13,29 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.wen.walletmanage"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.wen.walletmanage"
     },
     "web": {
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
     "experiments": {
-      "baseUrl": "/react-native-web-demo"
-    }
+      "baseUrl": "/react-native-web-walletmanage"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "56522160-cb82-40f6-8327-4bbbd399b943"
+      }
+    },
+    "owner": "zhaowenzzl"
   }
 }
